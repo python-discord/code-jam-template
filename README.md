@@ -174,7 +174,7 @@ When installing new dependencies, don't forget to [pin them](https://pip.pypa.io
 For example, if I wish to install `Click`, a quick look at [PyPI](https://pypi.org/project/click/) tells me that 8.0.1 is the latest version.
 I will then add `click ~= 8.0`, without the last number, to my dependency manager.
 
-A code jam project is left unmaintained after the end of the event. If the dependencies aren't pinned, the project will break after the fist major change in an API.
+A code jam project is left unmaintained after the end of the event. If the dependencies aren't pinned, the project will break after the first major change in an API.
 
 ## Final words
 

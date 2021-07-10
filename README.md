@@ -85,8 +85,6 @@ It is *installed* by running `pre-commit install` and can be run manually by cal
 - `isort`: Runs ISort.
 - `flake8`: Runs flake8.
 
-The last two hooks won't ship with their own environment but will rather run shell commands. You will have to modify them if you change your dependency manager.
-
 ## How do I use it?
 
 ### Creating your Team Repository
@@ -168,7 +166,8 @@ Once the environment is activated, all the commands listed previously should wor
 
 If you wish to use Pipenv or Poetry, you will have to move the dependencies in `dev-requirements.txt` to the development dependencies of your tool.
 
-Additionally, you will have to open `.pre-commit-config.yaml` and `.github/workflows/lint.yaml` and uncomment the right section.
+We've included a porting of `dev-requirements.txt` to both [poetry](./samples/pyproject.toml) and [pipenv](./samples/Pipfile) in the [samples folder](./samples).
+If you use the poetry setup, make sure to change the project name, description, and authors at the top of the file.
 
 When installing new dependencies, don't forget to [pin them](https://pip.pypa.io/en/stable/user_guide/#pinned-version-numbers) by adding a version tag at the end.
 For example, if I wish to install `Click`, a quick look at [PyPI](https://pypi.org/project/click/) tells me that 8.0.1 is the latest version.

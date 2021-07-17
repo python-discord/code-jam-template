@@ -1,6 +1,6 @@
 # GitHub Action Workflow enforcing our code style.
 
-name: Lint, Build & Deploy
+name: Lint
 
 # Trigger the workflow on both push (to the main repository)
 # and pull requests (against the main repository, but from any repo).

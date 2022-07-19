@@ -28,11 +28,8 @@ Our first and probably most important tool is flake8. It will run a set of plugi
 Here is a sample output:
 ```
 ~> flake8
-./app.py:1:1: D100 Missing docstring in public module
 ./app.py:1:6: N802 function name 'helloWorld' should be lowercase
 ./app.py:1:16: E201 whitespace after '('
-./app.py:1:17: ANN001 Missing type annotation for function argument 'name'
-./app.py:1:23: ANN201 Missing return type annotation for public function
 ./app.py:2:1: D400 First line should end with a period
 ./app.py:2:1: D403 First word of the first line should be properly capitalized
 ./app.py:3:19: E225 missing whitespace around operator
@@ -53,10 +50,7 @@ It is run by calling `flake8` in the project root.
 
 #### Plugin List:
 
-- `flake8-annotations`: Checks your code for the presence of [type-hints](https://docs.python.org/3/library/typing.html).
-- `flake8-bandit`: Checks for common security breaches.
 - `flake8-docstring`: Checks that you properly documented your code.
-- `flake8-isort`: Makes sure you ran ISort on the project.
 
 ### ISort: automatic import sorting
 

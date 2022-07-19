@@ -53,10 +53,7 @@ It is run by calling `flake8` in the project root.
 
 #### Plugin List:
 
-- `flake8-annotations`: Checks your code for the presence of [type-hints](https://docs.python.org/3/library/typing.html).
-- `flake8-bandit`: Checks for common security breaches.
 - `flake8-docstring`: Checks that you properly documented your code.
-- `flake8-isort`: Makes sure you ran ISort on the project.
 
 ### ISort: automatic import sorting
 

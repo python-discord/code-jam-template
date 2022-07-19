@@ -28,7 +28,6 @@ Our first and probably most important tool is flake8. It will run a set of plugi
 Here is a sample output:
 ```
 ~> flake8
-./app.py:1:1: D100 Missing docstring in public module
 ./app.py:1:6: N802 function name 'helloWorld' should be lowercase
 ./app.py:1:16: E201 whitespace after '('
 ./app.py:2:1: D400 First line should end with a period

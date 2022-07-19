@@ -31,8 +31,6 @@ Here is a sample output:
 ./app.py:1:1: D100 Missing docstring in public module
 ./app.py:1:6: N802 function name 'helloWorld' should be lowercase
 ./app.py:1:16: E201 whitespace after '('
-./app.py:1:17: ANN001 Missing type annotation for function argument 'name'
-./app.py:1:23: ANN201 Missing return type annotation for public function
 ./app.py:2:1: D400 First line should end with a period
 ./app.py:2:1: D403 First word of the first line should be properly capitalized
 ./app.py:3:19: E225 missing whitespace around operator

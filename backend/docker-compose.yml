@@ -1,0 +1,18 @@
+version: "3.8"
+services:
+
+  django:
+    build: .
+    container_name: django_app
+    ports:
+      - 8000:8000
+    volumes:
+      - .:/django
+    command: bash -c "python manage.py migrate && python manage.py runserver 0.0.0.0:8000"
+
+
+  redis:
+    image: redis:alpine
+    container_name: redis
+    ports:
+      - "6379:6379"

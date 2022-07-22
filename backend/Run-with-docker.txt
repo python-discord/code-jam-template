@@ -1,0 +1,17 @@
+# build the images: #run it one time only
+
+    docker-compose build
+
+# to run the container
+
+    docker-compose up
+
+# to stop the containers:
+    press =>  ctrl+c
+
+# to delete the containers
+
+    docker-compose down
+
+
+

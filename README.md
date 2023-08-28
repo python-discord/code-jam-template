@@ -99,14 +99,11 @@ One person in the team, preferably the leader, will have to create the repositor
 
 ![](https://docs.github.com/assets/images/help/repository/repo-actions-settings.png)
 
-5. Select **Manage access**.
+5. In the "Access" section of the sidebar, click **Collaborators**.
 
-<!-- Yes, this is inline html. The source image is too vertical to be displayed with 100% width. -->
-<img src="https://docs.github.com/assets/images/help/repository/manage-access-tab.png" style="width: 30%"></img>
+![Screenshot from 2023-08-28 14-09-55](https://github.com/python-discord/code-jam-template/assets/63936253/c150110e-d1b5-4e4d-93e0-0a2cf1de352b)
 
-6. Click **Invite a collaborator**.
-
-![](https://docs.github.com/assets/images/help/repository/invite-a-collaborator-button.png)
+6. Click **Add people**.
 
 7. Insert the names of each of your teammates, and invite them. Once they have accepted the invitation in their email, they will have write access to the repository.
 

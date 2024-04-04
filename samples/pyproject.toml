@@ -1,7 +1,9 @@
+# Sample poetry configuration.
+
 [tool.poetry]
 name = "Name"
 version = "0.1.0"
-description = ""
+description = "Description"
 authors = ["Author 1 <email@mail.com>"]
 license = "MIT"
 

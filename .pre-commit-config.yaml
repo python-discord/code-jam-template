@@ -1,4 +1,4 @@
-## Pre-commit setup
+# Pre-commit configuration.
 # See https://github.com/python-discord/code-jam-template/tree/main#pre-commit-run-linting-before-committing
 
 repos:

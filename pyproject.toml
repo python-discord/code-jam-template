@@ -26,6 +26,8 @@ ignore = [
     # Docstring whitespace.
     "D203",
     "D213",
+    # Docstring punctuation.
+    "D415",
     # Docstring quotes.
     "D301",
     # Builtins.

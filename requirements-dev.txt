@@ -2,5 +2,5 @@
 # Don't forget to pin your dependencies!
 # This list will have to be migrated if you wish to use another dependency manager.
 
-ruff~=0.3.5
-pre-commit~=3.7.0
+ruff~=0.4.10
+pre-commit~=3.7.1

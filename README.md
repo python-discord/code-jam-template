@@ -167,6 +167,7 @@ If you wish to use Pipenv or Poetry, you will have to move the dependencies in [
 
 We've included a porting of [`requirements-dev.txt`](requirements-dev.txt) to both [Poetry](samples/pyproject.toml) and [Pipenv](samples/Pipfile) in the [`samples` folder](samples).
 If you use the Poetry setup, make sure to change the project name, description, and authors at the top of the file.
+Also note that the Poetry [`pyproject.toml`](samples/pyproject.toml) file does not include the Ruff configuration, so if you simply replace the file then the Ruff configuration will be lost.
 
 When installing new dependencies, don't forget to [pin](https://pip.pypa.io/en/stable/topics/repeatable-installs/#pinning-the-package-versions) them by adding a version tag at the end.
 For example, if I wish to install [Click](https://click.palletsprojects.com/en/8.1.x/), a quick look at [PyPI](https://pypi.org/project/click/) tells me that `8.1.7` is the latest version.
